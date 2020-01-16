@@ -1,0 +1,1 @@
+memset(p,0,end-start);

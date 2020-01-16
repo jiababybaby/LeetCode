@@ -7,7 +7,7 @@ int lengthOfLongestSubstring(char * s){
     printf("%d\n",*(s));
     while( *(s+end) != 0 )
     {
-        maxlen = maxlen<100;//(end-start+1)?maxlen:(end-start+1);
+        maxlen = maxlen>(end-start+1)?maxlen:(end-start+1);
         ++end;
         while( 0 != map[ (int)*(s+end) ] )//将要加入的新元素与map内元素冲突
         {
