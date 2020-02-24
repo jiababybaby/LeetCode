@@ -1,3 +1,6 @@
+#include <vector>
+#include <Algorithm>
+using namespace std;
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
